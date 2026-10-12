@@ -1,0 +1,6 @@
+{
+  "name": "AI Quest - AI Academy & Missions",
+  "description": "Interactive AI training academy where students complete missions in machine learning, prompt engineering, ethics, and fact-checking to become an AI Master.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
