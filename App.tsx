@@ -4,22 +4,22 @@
  */
 
 import React from 'react';
-import { GameProvider, useGame } from './context/GameContext';
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { DailyChallengeModal } from './components/DailyChallengeModal';
-import { BadgeModal } from './components/BadgeModal';
-import { CertificateModal } from './components/CertificateModal';
-import { SearchModal } from './components/SearchModal';
-import { OnboardingModal } from './components/OnboardingModal';
-import { ToastContainer } from './components/ToastContainer';
-import { HomeView } from './views/HomeView';
-import { LearnView } from './views/LearnView';
-import { ChallengesView } from './views/ChallengesView';
-import { DetectiveView } from './views/DetectiveView';
-import { SkillTreeView } from './views/SkillTreeView';
-import { ProgressView } from './views/ProgressView';
-import { ProfileView } from './views/ProfileView';
+import { GameProvider, useGame } from './GameContext';
+import { Navbar } from './Navbar';
+import { Footer } from './Footer';
+import { DailyChallengeModal } from './DailyChallengeModal';
+import { BadgeModal } from './BadgeModal';
+import { CertificateModal } from './CertificateModal';
+import { SearchModal } from './SearchModal';
+import { OnboardingModal } from './OnboardingModal';
+import { ToastContainer } from './ToastContainer';
+import { HomeView } from './HomeView';
+import { LearnView } from './LearnView';
+import { ChallengesView } from './ChallengesView';
+import { DetectiveView } from './DetectiveView';
+import { SkillTreeView } from './SkillTreeView';
+import { ProgressView } from './ProgressView';
+import { ProfileView } from './ProfileView';
 
 const MainAppContent: React.FC = () => {
   const { currentView } = useGame();
