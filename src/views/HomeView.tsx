@@ -273,16 +273,7 @@ export const HomeView: React.FC = () => {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12">
       {/* Hero Welcome Container */}
       <div className="relative overflow-hidden rounded-3xl border border-cyan-500/30 bg-gradient-to-b from-[#0e162e] via-[#0a1022] to-[#070b18] p-8 sm:p-14 shadow-2xl">
-        {/* Background artwork */}
-        <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-screen">
-          <img
-            src="/src/assets/images/hero_ai_academy_1791140964442.jpg"
-            alt="AI Academy Command Center"
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
-        </div>
-
+       
         {/* Ambient radial lighting */}
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
