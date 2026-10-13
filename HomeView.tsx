@@ -21,6 +21,8 @@ import {
 } from 'lucide-react';
 import { useGame } from '../context/GameContext';
 import { sound } from '../utils/sound';
+import heroBg from '../assets/images/hero_ai_academy_1791140964442.jpg';
+
 
 export const HomeView: React.FC = () => {
   const {
@@ -275,11 +277,13 @@ export const HomeView: React.FC = () => {
       <div className="relative overflow-hidden rounded-3xl border border-cyan-500/30 bg-gradient-to-b from-[#0e162e] via-[#0a1022] to-[#070b18] p-8 sm:p-14 shadow-2xl">
         {/* Background artwork */}
         <div className="absolute inset-0 opacity-20 pointer-events-none mix-blend-screen">
-           <img
-            src="/src/assets/images/hero_ai_academy_1791140964442.jpg"
+                     <img
+            src={heroBg}
             alt="AI Academy Command Center"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
           />
+
         </div>
 
         {/* Ambient radial lighting */}
